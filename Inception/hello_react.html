@@ -11,15 +11,11 @@
 
     </div>
 
-    
+    <script type="module">
+        import React from 'react';
+        import ReactDOM from'react-dom/client';
 
-    
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-    <script>
-
-        const hello = React.createElement("h1", {}, "Hello React");
+        const hello = React.createElement("h1", {}, "Hello React JS");
         const root = ReactDOM.createRoot(document.getElementsByClassName("root")[0]);
         root.render(hello)
 
